@@ -15,7 +15,7 @@ COPY package.json /usr/src/app/
 RUN npm install
 
 # Bundle app source
-COPY src/. /usr/src/app
+COPY src/app.js /usr/src/app/
 
 EXPOSE 8080
 CMD [ "npm", "start" ]
