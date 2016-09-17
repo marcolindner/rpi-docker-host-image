@@ -1,0 +1,21 @@
+{
+  "name": "rpi-docker-host-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcolindner/rpi-docker-host-image.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcolindner/rpi-docker-host-image/issues"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
