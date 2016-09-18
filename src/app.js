@@ -1,7 +1,7 @@
 'use strict';
 
 const express = require('express'),
-      io = require('socket.io')listen(express);
+      io = require('socket.io').listen(express);
 
 const PORT = 8080;
 
