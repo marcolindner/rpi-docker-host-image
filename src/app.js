@@ -2,7 +2,7 @@
 
 const app = require('express')(),
       http = require('http').Server(app),
-      io = require('socket.io').listen(express);
+      io = require('socket.io').listen(http);
 
 const PORT = 8080;
 
