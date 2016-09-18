@@ -16,6 +16,7 @@
     "url": "https://github.com/marcolindner/rpi-docker-host-image/issues"
   },
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
   }
 }
