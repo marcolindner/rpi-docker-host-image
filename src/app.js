@@ -1,13 +1,13 @@
 'use strict';
 
-const express = require('express'),
+const app = require('express')(),
+      http = require('http').Server(app),
       io = require('socket.io').listen(express);
 
 const PORT = 8080;
 
 // APP
 
-const app = express();
 app.get('/', function(req, res) {
 	res.send('Hello World');
 });
